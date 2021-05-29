@@ -13,4 +13,4 @@ Flame thrower is an Arduino Uno controlled project using Adafruit's LIS3DH motio
 
 The device is activated by a switch. The whole is powered by a 7. 5V battery. Opening of electrovalve is controlled by Arduino (voltage applied to transistor). The same is true of a lighter. Since the cigarette lighter has its own power source, it is separated from the rest of the circuit by optocouplers. The lighter is controlled by two Arduino pins. The first is responsible for starting the cigarette lighter - the cigarette lighter normally starts when the lid is opened, which caused the two wires to short out. After disassembling this element, the circuit with the transistor is responsible for shorting these cables. The second circuit is responsible for applying voltage to the button that lights the already working lighter. In order to turn off the lighter, the two cables mentioned earlier need to be disconnected, thus stopping the voltage being applied to the transistor.
 
-
+![alt text](https://github.com/KacperPerz/flame_thrower/blob/main/circuit.png "circuit")
